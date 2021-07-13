@@ -31,7 +31,7 @@ MailArchiver.scpt must be edited to match your configuration:
 ## Notes
 
 * On my setup, script performs a 1,000 notes import in ca. 45 minutes.
-* Apple Notes imported notes are placed into a folder named "_ImportedNotesYYYYMMMDDTHHMMSS". You can then reorganize folder as you which. Apple Notes supports nested folders.
+* Apple Notes imported notes are placed into a folder named "_ImportedNotesYYYYMMMDDTHHMMSS". You can then reorganize folder as you wish. Apple Notes supports nested folders.
 * Before you launch your first import, I recommend you to set `maxNotesToImport` to 10 in order to validate the whole process works and fits your need.
 * Non-picture attachments (eg. PDF) from Evernote are not supported.
 * Evernote Stack structure is mimicked by leveraging Evernote Tags feature. For reflecting Evernote Stack/Notebook structure into Apple Notes as 2 folders hierarchy (StackFolder/NotebookFolder), assign "stack:XYZ" tags to your Stack's notes. To do so, in Evernote application, click on a given Stack in the left navigation panel. then select all Stack's notes by pressing Command+A keys (or Edit > Select all menu). Finally, Evernote shows a panel on the right hand side in which you can assign Tags. Enter a Tag name starting by "stack:" followed by stack name. e.g. "stack:Work". Repeat this process for all your Stacks (hopefully you don't have that many).
