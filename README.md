@@ -1,6 +1,8 @@
 # evernote2applenotes
 AppleScript to import Evernote notes to Apple Notes
 
+**Project archived. As I am done with Evernote and fully migrated to Apple Notes, I am not planning to improve current script.**
+
 ## Description
 This Apple Script automates importing process from Evernote notes to Apple Notes application.
 
